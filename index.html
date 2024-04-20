@@ -56,86 +56,90 @@
         </button>
       </div>
       <div class="mob-menu is-open">
-        <button type="button" class="menu-close-btn">
-          <svg class="mob-cloce-button" width="8" height="8">
-            <use href="./images/icons.svg#icon-close"></use>
-          </svg>
-        </button>
-        <ul class="mob-menu-list">
-          <li class="mob-menu-item">
-            <a class="mob-menu-link" href="./index.html">Studio</a>
-          </li>
-          <li class="mob-menu-item">
-            <a class="mob-menu-link" href="">Portfolio</a>
-          </li>
-          <li class="mob-menu-item">
-            <a class="mob-menu-link" href="">Contacts</a>
-          </li>
-        </ul>
-        <address class="mob-contacts">
-          <ul class="mob-contacts-menu">
-            <li>
-              <a class="mob-contacts-info" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
+        <div class="container container-mob">
+          <button type="button" class="menu-close-btn">
+            <svg class="mob-cloce-button" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <nav class="mob-list">
+            <ul class="mob-menu-list">
+              <li class="mob-menu-item">
+                <a class="mob-menu-link" href="./index.html">Studio</a>
+              </li>
+              <li class="mob-menu-item">
+                <a class="mob-menu-link" href="">Portfolio</a>
+              </li>
+              <li class="mob-menu-item">
+                <a class="mob-menu-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="mob-contacts">
+            <ul class="mob-contacts-menu">
+              <li>
+                <a class="mob-contacts-info" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="-mob-contacts-menu-list">
+                <a class="mob-contacts-info" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="mob-soc-list">
+            <li class="mob-soc-item">
+              <a
+                class="mob-soc-link"
+                target="_blank"
+                href=""
+                rel="noopener noreferrer nofollow"
               >
+                <svg class="mob-soc-icon" width="24" height="24" fill="#f4f4fd">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="-mobcontacts-menu-list">
-              <a class="mob-contacts-info" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
+            <li class="mob-soc-item">
+              <a
+                class="mob-soc-link"
+                target="_blank"
+                href=""
+                rel="noopener noreferrer nofollow"
               >
+                <svg class="mob-soc-icon" width="24" height="24" fill="#f4f4fd">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-soc-item">
+              <a
+                class="mob-soc-link"
+                target="_blank"
+                href=""
+                rel="noopener noreferrer nofollow"
+              >
+                <svg class="mob-soc-icon" width="24" height="24" fill="#f4f4fd">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-soc-item">
+              <a
+                class="mob-soc-link"
+                target="_blank"
+                href=""
+                rel="noopener noreferrer nofollow"
+              >
+                <svg class="mob-soc-icon" width="24" height="24" fill="#f4f4fd">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
-        <ul class="mob-soc-list">
-          <li class="mob-soc-item">
-            <a
-              class="mob-soc-link"
-              target="_blank"
-              href=""
-              rel="noopener noreferrer nofollow"
-            >
-              <svg class="mob-soc-icon" width="24" height="24" fill="#f4f4fd">
-                <use href="./images/icons.svg#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="mob-soc-item">
-            <a
-              class="mob-soc-link"
-              target="_blank"
-              href=""
-              rel="noopener noreferrer nofollow"
-            >
-              <svg class="mob-soc-icon" width="24" height="24" fill="#f4f4fd">
-                <use href="./images/icons.svg#icon-twitter"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="mob-soc-item">
-            <a
-              class="mob-soc-link"
-              target="_blank"
-              href=""
-              rel="noopener noreferrer nofollow"
-            >
-              <svg class="mob-soc-icon" width="24" height="24" fill="#f4f4fd">
-                <use href="./images/icons.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="mob-soc-item">
-            <a
-              class="mob-soc-link"
-              target="_blank"
-              href=""
-              rel="noopener noreferrer nofollow"
-            >
-              <svg class="mob-soc-icon" width="24" height="24" fill="#f4f4fd">
-                <use href="./images/icons.svg#icon-linkedin"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
+        </div>
       </div>
     </header>
     <!-- Section 1 -->
@@ -488,7 +492,7 @@
                       ./images/portfolio-1-mob.jpg    1x,
                       ./images/portfolio-1-mob-2x.jpg 2x
                     "
-                    media="(max-width: 768px)"
+                    media="(max-width: 767px)"
                   />
                   <img
                     src="./images/portfolio-1.jpg"
@@ -530,7 +534,7 @@
                       ./images/portfolio-2-mob.jpg    1x,
                       ./images/portfolio-2-mob-2x.jpg 2x
                     "
-                    media="(max-width: 768px)"
+                    media="(max-width: 767px)"
                   />
                   <img
                     src="./images/portfolio-2.jpg"
@@ -573,7 +577,7 @@
                       ./images/portfolio-3-mob.jpg    1x,
                       ./images/portfolio-3-mob-2x.jpg 2x
                     "
-                    media="(max-width: 768px)"
+                    media="(max-width: 767px)"
                   />
                   <img
                     src="./images/portfolio-3.jpg"
@@ -616,7 +620,7 @@
                       ./images/portfolio-4-mob.jpg    1x,
                       ./images/portfolio-4-mob-2x.jpg 2x
                     "
-                    media="(max-width: 768px)"
+                    media="(max-width: 767px)"
                   />
                   <img
                     src="./images/portfolio-4.jpg"
@@ -659,7 +663,7 @@
                       ./images/portfolio-5-mob.jpg    1x,
                       ./images/portfolio-5-mob-2x.jpg 2x
                     "
-                    media="(max-width: 768px)"
+                    media="(max-width: 767px)"
                   />
                   <img
                     src="./images/portfolio-5.jpg"
@@ -702,7 +706,7 @@
                       ./images/portfolio-6-mob.jpg    1x,
                       ./images/portfolio-6-mob-2x.jpg 2x
                     "
-                    media="(max-width: 768px)"
+                    media="(max-width: 767px)"
                   />
                   <img
                     src="./images/portfolio-6.jpg"
@@ -817,7 +821,7 @@
       </div>
     </footer>
     <!-- Overlay -->
-    <div class="modal-overlay">
+    <div class="modal-overlay is-open">
       <div class="modal">
         <button type="button" class="modal-cloce-button">
           <svg class="icon-close" width="8" height="8">
